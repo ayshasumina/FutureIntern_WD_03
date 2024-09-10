@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    font-family: 'Times New Roman', Times, serif;
+    --color: rgb(14, 15, 6);
+    --color2: rgb(251, 249, 249);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+    background: rgb(205, 119, 79);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input,
+  select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 30px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .result {
+    margin: 20px 0;
+    font-size: 26px;
+    color: rgb(8, 8, 8);
+    letter-spacing: 1px;
+    height: 1em;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #db4d34;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b9293f;
+  }
+  
